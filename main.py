@@ -60,7 +60,7 @@ def main(root: Tk):
 
     root.geometry("720x270")
     root.title("LyingBard")
-    root.iconbitmap("lyingbard/favicon.ico")
+    # root.iconbitmap("./lyingbard/favicon.ico", default="./lyingbard/favicon.ico")
 
     root.mainloop()
 
